@@ -1,0 +1,13 @@
+# HTML files ko language calculation se completely ignore karo
+*.html linguist-detectable=false
+
+# Platform folders aur build files ko vendored/external mark karo
+web/* linguist-vendored
+windows/* linguist-vendored
+linux/* linguist-vendored
+macos/* linguist-vendored
+ios/* linguist-vendored
+android/* linguist-vendored
+
+# Dart ko primary count karwao
+*.dart linguist-detectable=true
